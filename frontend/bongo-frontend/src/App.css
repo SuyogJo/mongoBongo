@@ -1,0 +1,106 @@
+/* Chatbot container */
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95vh; /* Take up the entire viewport height */
+  padding: 10px;
+}
+
+/* Messages container */
+.messages-container {
+  text-wrap: wrap;
+  flex: 1;
+  overflow-y: auto;
+  padding: 30px;
+  /*background-color: #343434;*/
+  border: 5px;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+
+
+}
+
+/* Individual message */
+.message {
+  text-wrap: wrap;
+  display: flex;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #ebe2ca;
+  font-size: large;
+  font-weight: 500;
+  color: black;
+}
+
+.from-user {
+  border: 5px solid #ebe2ca;
+  border-radius: 10px;
+}
+
+.from-chatbot {
+  border: 5px solid #ebe2ca;
+  border-radius: 10px;
+}
+
+
+.message-text {
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%; /* Limit message width for readability */
+  word-wrap: break-word; /* Allow long messages to wrap */
+}
+
+/* Input field and send button */
+.input-form {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.input-field {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ded1af;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #ccb67e;
+  color: black;
+}
+
+.title {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: xx-large;
+  line-height: 1.5;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  color: black;
+}
+
+.picAndTitle {
+  display: flex;
+  justify-content: center;
+}
