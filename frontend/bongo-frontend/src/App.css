@@ -104,3 +104,10 @@
   display: flex;
   justify-content: center;
 }
+
+.image-person {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
